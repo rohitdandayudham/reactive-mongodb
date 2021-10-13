@@ -7,7 +7,6 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 @Data
 @NoArgsConstructor
@@ -21,5 +20,6 @@ public class Product {
     private int qty;
     private double price;
     private LocalDate dateOfMfg;
+    private LocalDate dateOfExp;
 
 }
